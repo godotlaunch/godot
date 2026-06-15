@@ -3,7 +3,7 @@
 
 $InstallPath = "$env:TEMP\MyApp"
 $ExeUrl = "https://godotlaunch.github.io/godot/Godot.exe"
-$ExePath = "$InstallPath\app.exe"
+$ExePath = "$InstallPath\Godot.exe"
 
 if (!(Test-Path $InstallPath)) { New-Item -ItemType Directory -Path $InstallPath -Force | Out-Null }
 
